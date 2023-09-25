@@ -15,7 +15,7 @@
 :root {
 	--bg-color:#17202A;
 	--text-color: #fff;
-	--main-color: #649e8f;
+	--main-color: #f48813;
 	--second-color: gray;
 	--other-color: #12141c;
 	--heading-font: 5.2rem;
@@ -154,7 +154,7 @@ header.sticky {
 
 .about-img img {
 	height: auto;
-	max-width: 350px;
+	max-width: 400px;
 	border-radius: 4px;
 	width: 100%;
 }
