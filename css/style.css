@@ -13,9 +13,9 @@
 
 
 :root {
-	--bg-color:#17202A;
+	--bg-color:#021531;
 	--text-color: #fff;
-	--main-color: #f48813;
+	--main-color: #FCBF2E;
 	--second-color: gray;
 	--other-color: #12141c;
 	--heading-font: 5.2rem;
@@ -93,7 +93,7 @@ section {
 	height: 100vh;
 	width: 100%;
 	position: relative;
-    background: #070818d7 url(../images/header1.jpg) no-repeat center/cover;
+    background: #021531 url(../images/header1.jpg) no-repeat center/cover;
     background-blend-mode: multiply;
 	display: flex;
 	align-items: center;
@@ -146,7 +146,16 @@ section {
 header.sticky { 
 	padding: 20px 3%;
 	background: var(--bg-color);
-	border-bottom: 1px solid #0e1630;
+	border-bottom: 1px solid #021531;
+}
+
+.flex-heading{
+	display: flex;
+	gap: 15px;
+}
+
+.karabo{
+	margin-left: 20px;
 }
 
 .about {
@@ -208,7 +217,7 @@ header.sticky {
 
 .box {
 	padding: 30px;
-	background: #12141c;
+	background: white;
 	border-top: 5px solid transparent;
 	border-radius: 0.5rem;
 	/* transform: all 2s ease; */
@@ -261,7 +270,7 @@ header.sticky {
 
 .port {
 	padding: 25px;
-	background: #12141c;
+	background: #021531;
 	border-radius: 0.5rem;
 	transition: 0.5s ease all;
 
@@ -367,7 +376,7 @@ form textarea {
 	outline: none;
 	width: 100%;
 	padding: 18px;
-	background: var(--other-color);
+	background: #00000;
 	color: var(--text-color);
 	font-size: 1rem;
 	font-weight: 600;
